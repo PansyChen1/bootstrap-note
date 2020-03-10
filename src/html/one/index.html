@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <p>屏幕宽度是100%</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-3" style="background: #aaa">1</div>
+        <!--列偏移-->
+        <div class="col-xl-3 offset-3" style="background: #66afe9">2</div>
+        <div class="col-xl-3" style="background: #cdbfe3">3</div>
+        <div class="col-xl-3" style="background: #d4edda">4</div>
+
+        <!--等宽布局，只需要col-->
+        <div class="col" style="background: #f2dede">5</div>
+        <!--本身宽度的弹性空间-->
+        <div class="col-auto" style="background: #b3edff">6</div>
+        <!--通过class改变展示的顺序，order默认为0-->
+        <div class="col order-first" style="background: #ffe8a1">7</div>
+
+        <!--列嵌套-->
+        <div class="col">
+            <div class="row">
+                <div class="col-xl-4" style="background: #f7bb97">8</div>
+                <div class="col-xl-8" style="background: #c1e2b3">9</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
